@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: url(https://cdn.discordapp.com/attachments/685210402577055758/965960883987709982/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .total{
+            position: relative;
+            margin: 0 auto;
+            text-align: center;
+            width: 700px;
+        }
+        .logo img{
+            position: absolute;
+            display:flex;
+            text-align: left;
+            width: 150px;
+            margin-top: 50px;
+        }
+        .results{
+            position: absolute;
+            border-color: black;
+            height: 500px;
+            width: 500px;
+        }
+        .results h1{
+            color: #f4e8e8;
+            font-size: 40px;
+            top: 100px;
+            position: absolute;
+            display: inline-flex;
+        }
+        .results h4{
+            margin-bottom: 20px;
+            left: 180px;
+            color: #f4e8e8;
+            position: absolute;
+            display: flex;
+            font-size: 20px;
+            top: 140px;
+        }
+        .circle{
+            position: absolute;
+            display: flex;
+            left: 185px;
+            top: 220px;
+            background-color: rgb(1, 1, 1,0.1);
+            border: solid 30px;
+            border-color: aqua;
+            width: 200px;
+            height: 200px;
+            border-radius: 3000px;
+
+        }
+    </style>
+</head>
+<body>
+    <!--Total is where whole the content goes into-->
+    <div class="total">
+        <div class="logo">
+            <img src="https://cdn.discordapp.com/attachments/685210402577055758/965959374499627069/epicode_logo.png">
+        </div>
+        <div class="results">
+            <h1>Results</h1>
+            <h4>The summary of your answers:</h4>
+            <div class="circle"></div>
+        </div>
+    </div>
+</body>
+</html>
