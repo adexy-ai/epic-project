@@ -37,6 +37,7 @@ body{
     font-size:xx-large;
     font-weight: 400;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
     
 
 }
@@ -53,18 +54,18 @@ body{
     height: 50px;
     cursor:pointer;
 }
-a:hover {
-    color: pink;
+.button__container {
+    display: grid;
+    text-align: center;
 }
-#button__container {
-    margin-left: 20px;
-    margin-right: 20px;
-}
+/* a:hover {
+    color: pink; 
+} */
 #footer__format {
     font-weight: bold;
-    position:absolute;
-    bottom: 10px;
-    margin-left: 50% ;
+    position:absolute; 
+    bottom: 20px;
+    margin-left: 40% ;
 }
 
 h1 span {
@@ -72,17 +73,17 @@ h1 span {
     font-weight: bold;
 }
 
-#sp1 {
-    position: absolute;
-    right: 20px;
+
+/* #sp1 {
+    position: relative;
+    text-align: center;
 }
 
 #sp4 {
-    position: absolute;
-    right: 20px;
-    bottom: 38%;
-}
+    position: relative;
+    text-align: center;
+    }
 #sp2 {
-    position: absolute;
-    bottom: 38%;
-}
+    position: relative;
+    text-align: center;
+    } */
