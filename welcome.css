@@ -9,8 +9,38 @@ body {
 }
 
 .logo img {
-    width: 150px;
+    width: 125px;
+
+}
+
+.main-container {
+
+}
 
 
 
+
+
+
+.footer-button {
+    color: rgb(1, 4, 4);
+    font-size: 16px;
+    line-height: 16px;
+    padding: 6px;
+    border-radius: 0px; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+    border: 2px solid rgb(28, 110, 164); 
+    display: inline-block;
+}
+    .footer-button:hover {
+    background: #1C6EA4;
+ }
+    .footer-button:active {
+    background: #144E75; 
 }
