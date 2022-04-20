@@ -4,9 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
     <title>FeedBack</title>
+    <style>
+        body{
+            font-family: 'Outfit', sans-serif;
+            background: url(https://cdn.discordapp.com/attachments/685210402577055758/965960883987709982/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+        }
+        .total{
+            position: relative;
+            margin: 0 auto;
+            text-align: center;
+            width: 900px;
+        }
+        .logo img{
+            position: absolute;
+            display:flex;
+            width: 150px;
+            margin-top: 50px;
+        }
+        .upper{
+            width: 100%;
+            position: absolute;
+            border-color: black;
+        }
+        .upper h1{
+            width: 510px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #f4e8e8;
+            font-size: 40px;
+            top: 130px;
+            position: absolute;
+        }
+        .upper p{
+            font-family: 'Inter', sans-serif;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #f4e8e8;
+            position: absolute;
+            display: block;
+            font-size: 20px;
+            top: 200px;
+            width: 550px;
+        }
+        button{
+            background-color: transparent;
+            border: transparent;
+        }
+        .stars{
+            display: flex;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 290px;
+        }
+        .stars img{
+            object-fit: cover;
+            width: 40px;
+        }
+        .footer{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 370px;
+        }
+        .footer p{
+            font-size: 21px;
+            width: 550px;
+            color: rgb(237, 225, 225,0.7);
+        }
+        input{
+            color: wheat;
+            padding-left: 20px;
+            padding-bottom: 5px;
+            border: transparent;
+            border-bottom: purple solid;
+            background-color: transparent;
+            width: 500px;
+        }
+        .footer button{
+            box-shadow: rgba(0, 255, 255, 0.388) 0px 0px 25px 10px;
+            font-family: 'Outfit', sans-serif;
+            font-size: 16px;
+            font-weight: 900;
+            position: absolute;
+            width: 150px;
+            padding-left: 8px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            left: 50%;
+            top: 120px;
+            transform: translateX(-50%);
+            background-color: #00FFFF;
+            cursor: pointer;
+        }
+        </style>
 </head>
 <body>
-    
+    <div class="total">
+    <div class="logo">
+        <img src="https://cdn.discordapp.com/attachments/685210402577055758/965959374499627069/epicode_logo.png">
+        </div>
+    <div class="upper">
+        <h1>Tell us how it's going</h1>
+        <p>From 0 to 10, how likely are you to recommend EPICODE to a friend or a colleague?</p>
+    </div>
+    <div class="stars">
+        <button><img src="star.svg"></button>
+        <button><img src="star.svg"></button>
+        <button><img src="star.svg"></button>
+        <button><img src="star.svg"></button>
+        <button><img src="star.svg"></button>
+        <button><img src="star.svg"></button>
+        <button><img src="star.svg"></button>
+        <button><img src="star.svg"></button>
+        <button><img src="star.svg"></button>
+        <button><img src="star.svg"></button>
+    </div>
+    <div class="footer">
+        <p>Leave us an open feedback about your experience so far</p>
+        <input type="text" placeholder="Write your comment here">
+        <button>MORE INFO</button>
+    </div>
+    </div>
 </body>
 </html>
