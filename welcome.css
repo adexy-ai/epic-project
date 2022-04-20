@@ -3,8 +3,12 @@ body {
     font-family: 'Outfit', sans-serif;
     background-image: url(/assetts/bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
     position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 
 }
 
@@ -65,38 +69,36 @@ ul {
 .checkbox {
     font-size: smaller;
     
+    
 }
 
 #promise {
-    background-color: black;
-    border-color: white;
+    background-color: transparent;
+    border-color: black;
+    border: solid;
     
 }
-.footer-button {
+button {
     
-    box-shadow: rgb(234, 238, 241) 3px 3px 3px;
     border: none;
     color: #0b113b;
     background-color: #00FFFF;
-    font-family : 'Outfit', sans-serif;
+    font-family : 'Outfit';
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
+    text-transform: uppercase;
     width: 160px;
-    padding: 10px;
+    padding: 17px;
     position: absolute;
-    left: 50%;
+    left: 40%;
     transform: translateX(-50%);
     top: 530px;
     cursor:pointer;
-}
+    margin: 50px;
+    }
 
-button:hover{
-    box-shadow:rgba(110, 155, 223, 0.379) 3px 3px 3px;
-}
+    button:hover{
+        box-shadow: rgba(0, 255, 255, 0.388) 0px 0px 25px 10px;
+    }  
 
-    .footer-button:hover {
-    background: #00FFFF;
- }
-    .footer-button:active {
-    background: #ecf0f2; 
-}
+    
