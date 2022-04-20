@@ -1,0 +1,158 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body{
+            
+            font-family: 'Outfit', sans-serif;
+            background: url(https://cdn.discordapp.com/attachments/685210402577055758/965960883987709982/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+        }
+        .total{
+            position: relative;
+            margin: 0 auto;
+            text-align: center;
+            width: 900px;
+        }
+
+        .logo img{
+            position: absolute;
+            display:flex;
+            width: 150px;
+            margin-top: 50px;
+        }
+        .results{
+            width: 100%;
+            position: absolute;
+            border-color: black;
+        }
+        .results h1{
+            left: 50%;
+            transform: translateX(-50%);
+            color: #f4e8e8;
+            font-size: 60px;
+            top: 60px;
+            position: absolute;
+        }
+        .results h4{
+            font-family: 'Inter', sans-serif;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #f4e8e8;
+            position: absolute;
+            display: block;
+            font-size: 20px;
+            top: 140px;
+        }
+        .circle{
+            box-shadow: rgb(62, 1, 62,0.9) 9px 9px 9px;
+            right: 50%;
+            transform: translateX(50%);
+            position: absolute;
+            top: 220px;
+            background-color: rgb(1, 1, 1,0.1);
+            border: solid 35px;
+            border-color: aqua;
+            width: 200px;
+            height: 200px;
+            border-radius: 2000px;
+        }
+        .circle P{
+            position: absolute;
+            left: 8px;
+            font-family: 'Inter', sans-serif;
+            font-size: smaller;
+            color: rgba(255, 255, 255, 0.878);
+            }
+        .circle h5{
+                margin-top: 35px;
+                color: #00FFFF;
+        }
+        .correct{
+            position: absolute;
+            left: 15%;
+            transform: translateX(-50%);
+            top: 275px;
+            color: whitesmoke;
+        }
+        .correctAnswers{
+            display: inline;
+            font-family: 'Inter', sans-serif;
+            font-size: 60px;
+        }
+        .correct span{
+            color: rgb(233, 231, 231,0.5);
+            font-family: 'Inter', sans-serif;
+        }
+        .wrong{
+            position: absolute;
+            right: 15%;
+            transform: translateX(50%);
+            top: 275px;
+            color: whitesmoke;
+        }
+        .wrongAnswers{
+            display: inline;
+            font-family: 'Inter', sans-serif;
+            font-size: 60px;
+        }
+        .wrong span{
+            color: rgb(233, 231, 231,0.5);
+            font-family: 'Inter', sans-serif;
+        }
+        button{
+            box-shadow: rgb(110, 110, 223) 3px 3px 3px;
+            border: white 1px solid;
+            color: whitesmoke;
+            background-color: transparent;
+            font-family: 'Outfit', sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            width: 160px;
+            padding: 10px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 530px;
+            cursor:pointer;
+        }
+        button:hover{
+            box-shadow:rgba(110, 110, 223, 0.379) 3px 3px 3px;
+        }
+    </style>
+</head>
+<body>
+    <!--Total is where whole the content goes into-->
+    <div class="total">
+        <div class="logo">
+            <img src="https://cdn.discordapp.com/attachments/685210402577055758/965959374499627069/epicode_logo.png">
+        </div>
+        <div class="results">
+            <h1>Results</h1>
+            <h4>The summary of your answers:</h4>
+            <div class="circle">
+                <h5>Congratulations!</h5><!--Will need to be changed with js-->
+                <p>We'll send you the certificate<br>in few minutes.<br>Check your email(including<br>promotions / spam folder</p><!--Will need to be changed with js-->
+            </div>
+            <div class="correct">
+                <p class="correctAnswers">Correct<br>67%</p><br><!--Will need to be changed with js-->
+                <span>4/6 questions</span><!--Will need to be changed with js-->
+            </div>
+            <div class="wrong">
+                <p class="wrongAnswers">Wrong<br>33%</p><br><!--Will need to be changed with js-->
+                <span>2/6 questions</span><!--Will need to be changed with js-->
+            </div>
+        </div>
+        <button value="button" name="button">Rate us</button>
+    </div>
+</body>
+</html>
