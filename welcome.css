@@ -19,42 +19,56 @@ body {
 }
 
 .main-container {
+    position: relative;
     max-width: 720px;
     margin:6%;
+    width: 55%;
+    height: 50vh;
     
 
 }
 
 .page-title {
+    position: relative;
     font-family: 'Outfit';
     font-size: 70px;
     font-weight: 400;
+    top: -10%;
 
 
 }
-span {
-    position: relative;
-    bottom: 12px;
-    font-size: 60px;
-    font-weight: 700;
 
-}
-.instruct-container {
-    margin: 5px;
-    
-}
 .welcome-text {
     font-family: 'Outfit';
     font-weight: 50;
     font-size:180% ;
-    margin: 0px;
-    display:flex;
+
+}
+
+span {
+    position: relative;
+    bottom: 40px;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 50px;
+    line-height: 22px;
+
+}
+.instruct-container {
+    position: relative;
+    top: -20%;
+
+    
     
 }
 
 
+
 h3 {
     color:rgb(226, 43, 159);
+    margin-top: 1px;
+    font-size: 22px;
+    
 }
 p {
     font-family: 'Inter';
@@ -64,20 +78,29 @@ p {
 ul {
     font-family: 'Inter';
     font-size: smaller;
+    letter-spacing: 0.5px;
+    margin-top: 40px;
+    line-height: 20px;
 }
 
 .checkbox {
-    font-size: smaller;
+    font-size: small
     
     
 }
 
 #promise {
-    background-color: transparent;
-    border-color: black;
-    border: solid;
     
+    background-color: transparent;
+    border-color: white;
+    border:white;
+    opacity: 100%;
 }
+#promise:checked {
+    background: white;
+
+}
+
 button {
     
     border: none;
@@ -85,16 +108,16 @@ button {
     background-color: #00FFFF;
     font-family : 'Outfit';
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
     text-transform: uppercase;
     width: 160px;
     padding: 17px;
     position: absolute;
-    left: 40%;
+    left: 80%;
     transform: translateX(-50%);
-    top: 530px;
+    top: 400px;
     cursor:pointer;
-    margin: 50px;
+    
     }
 
     button:hover{
