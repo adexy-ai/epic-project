@@ -54,6 +54,7 @@
             top: 140px;
         }
         .circle{
+            box-shadow: rgb(62, 1, 62,0.9) 9px 9px 9px;
             right: 50%;
             transform: translateX(50%);
             position: absolute;
@@ -94,7 +95,7 @@
         }
         .wrong{
             position: absolute;
-            right: 18%;
+            right: 15%;
             transform: translateX(50%);
             top: 275px;
             color: whitesmoke;
@@ -107,6 +108,25 @@
         .wrong span{
             color: rgb(233, 231, 231,0.5);
             font-family: 'Inter', sans-serif;
+        }
+        button{
+            box-shadow: rgb(110, 110, 223) 3px 3px 3px;
+            border: white 1px solid;
+            color: whitesmoke;
+            background-color: transparent;
+            font-family: 'Outfit', sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            width: 160px;
+            padding: 10px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 530px;
+            cursor:pointer;
+        }
+        button:hover{
+            box-shadow:rgba(110, 110, 223, 0.379) 3px 3px 3px;
         }
     </style>
 </head>
@@ -132,6 +152,7 @@
                 <span>2/6 questions</span>
             </div>
         </div>
+        <button value="button" name="button">Rate us</button>
     </div>
 </body>
 </html>
