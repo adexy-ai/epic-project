@@ -4,6 +4,7 @@ body {
     background-image: url(/assetts/bg.jpg);
     background-repeat: no-repeat;
     color: white;
+    position: relative;
 
 }
 
@@ -15,29 +16,45 @@ body {
 
 .main-container {
     max-width: 720px;
-    margin:4%;
+    margin:6%;
+    
+
 }
 
+.page-title {
+    font-family: 'Outfit';
+    font-size: 70px;
+    font-weight: 400;
+
+
+}
+span {
+    position: relative;
+    bottom: 12px;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+.instruct-container {
+    margin: 5px;
+    
+}
 .welcome-text {
     font-family: 'Outfit';
     font-weight: 50;
     font-size:180% ;
-    margin: 10px;
+    margin: 0px;
+    display:flex;
+    
 }
 
-.your-exam {
-font-family: 'Outfit';
-font-size: 180%;
-margin: 10px
-
-}
 
 h3 {
     color:rgb(226, 43, 159);
 }
 
 .footer-button {
-    margin: 140px
+    margin: 140px;
     color: rgb(1, 4, 4);
     font-size: 16px;
     line-height: 16px;
