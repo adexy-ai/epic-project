@@ -1,6 +1,5 @@
 
 body {
-    font-family: 'Inter', sans-serif;
     font-family: 'Outfit', sans-serif;
     background-image: url(/assetts/bg.jpg);
     background-repeat: no-repeat;
@@ -10,19 +9,35 @@ body {
 
 .logo img {
     width: 125px;
+    margin: 50px;
 
 }
 
 .main-container {
+    max-width: 720px;
+    margin:4%;
+}
+
+.welcome-text {
+    font-family: 'Outfit';
+    font-weight: 50;
+    font-size:180% ;
+    margin: 10px;
+}
+
+.your-exam {
+font-family: 'Outfit';
+font-size: 180%;
+margin: 10px
 
 }
 
-
-
-
-
+h3 {
+    color:rgb(226, 43, 159);
+}
 
 .footer-button {
+    margin: 140px
     color: rgb(1, 4, 4);
     font-size: 16px;
     line-height: 16px;
