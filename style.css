@@ -1,6 +1,7 @@
 body{
     background-image: url(/assets/bg.jpg);
     color: white;
+    c
 }
 .logo img {
     width: 125px;
@@ -8,10 +9,8 @@ body{
 
 }
 .circle__format {
-    box-shadow: rgb(62, 1, 62, 0.9) 9px 9px 9px;
-    right: 15%;
-    transform: translateX(50%);
     position: absolute;
+    right: 15px;
     top: 15px;
     background-color: rgb(1, 1, 1, 0.1);
     border: solid 10px;
@@ -37,5 +36,43 @@ span {
 .header {
     font-size: larger;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    text-align: center;
+
+}
+.button_format {
+    box-shadow: rgb(110, 110, 223) 3px 3px 3px;
+    border: white 1px solid;
+    color: whitesmoke;
+    background-color: transparent;
+    font-family: 'Outfit',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 300px;
+    cursor:pointer;
+}
+#footer__format {
+    font-weight: bold;
+    position:absolute;
+    bottom: 10px;
+    text-align: center;
+}
+
+h1 span {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#sp1 {
+    position: absolute;
+    right: 20px;
+}
+
+#sp4 {
+    position: absolute;
+    right: 20px;
+    bottom: 45%;
+}
+#sp2 {
+    position: absolute;
+    bottom: 45%;
 }
