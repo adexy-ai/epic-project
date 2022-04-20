@@ -1,0 +1,41 @@
+body{
+    background-image: url(/assets/bg.jpg);
+    color: white;
+}
+.logo img {
+    width: 125px;
+    margin: 50px;
+
+}
+.circle__format {
+    box-shadow: rgb(62, 1, 62, 0.9) 9px 9px 9px;
+    right: 15%;
+    transform: translateX(50%);
+    position: absolute;
+    top: 15px;
+    background-color: rgb(1, 1, 1, 0.1);
+    border: solid 10px;
+    border-color: aqua;
+    width:100px;
+    height: 100px;
+    border-radius: 1000px;
+}
+
+.circle__format p {
+    position: absolute;
+    left: 15px;
+    bottom: 15%;
+    font-family: 'Inter', sans-serif;
+    font-size: smaller;
+    color: rgba(255, 255, 255, 0.878);
+}
+span {
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+}
+.header {
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
