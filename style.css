@@ -1,6 +1,10 @@
 body{
     background-image: url(/assets/bg.jpg);
     color: white;
+    background-repeat: repeat-x;
+    background-size:cover; 
+    background-attachment: fixed;
+   
 }
 .logo img {
     width: 125px;
@@ -41,7 +45,7 @@ body{
     
 
 }
-.button_format {
+button {
     box-shadow: rgb(110, 110, 223) 3px 3px 3px;
     border: white 1px solid;
     border-radius: 25px;
@@ -53,19 +57,30 @@ body{
     width: 300px;
     height: 50px;
     cursor:pointer;
+    display:inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+   
 }
-.button__container {
-    display: grid;
-    text-align: center;
+    #button__container {
+    /* align-items: center; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
-/* a:hover {
-    color: pink; 
-} */
-#footer__format {
+    button:hover {
+    background-color: #980E7E
+} 
+#footer {
     font-weight: bold;
-    position:absolute; 
-    bottom: 20px;
-    margin-left: 40% ;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:90%;
+    /* text-align: center; */
+    /* bottom: 20%; */
 }
 
 h1 span {
