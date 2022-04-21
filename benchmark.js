@@ -4,8 +4,8 @@
 //let question = ["question1", "question2", "question 3", "question4", "question 5"]
 //Math.random
 
-let questions = [
-    {
+//let questions = [
+/*     {
         prompt:'Arrays in JS are defined by which of the following statements?\n\
             (a) Ordered list of values\n\
             (b) Ordered list of objects\n\
@@ -61,8 +61,47 @@ for (let index = 0; index < questions.length; index++) {
         alert('Wrong, try again!')
     }
 }
-alert('You got' + score + '/' + questions.length);
+alert('You got' + score + '/' + questions.length); */
 
+let questions = [{
+    question: 'Arrays in JS are defined by which of the following statements?',
+    correctAnswer: 'Ordered list of values',
+    incorrectAnswers: ['Ordered list of objects','Ordered list of strings','Ordered list of functions'],
+    },
+    {
+    question: 'Which of the following is not js data types?',
+    correctAnswer: 'All of the mentioned',
+    incorrectAnswers: ['Null type','Undefined type','Number type'],
+    },
+    {
+    question: 'The function and var/let are known as?',
+    correctAnswer: 'Declaration statements',
+    incorrectAnswers: ['Keywords','Data types','Prototypes'],
+    },
+    {
+    question: 'Which of the following statement is suitable to check if pattern matches the string text?',
+    correctAnswer: 'text==pattern',
+    incorrectAnswers: ['test(text)','equals(pattern)','test(pattern)'],
+    },
+    {
+    question: 'Which of the following is known as the equality operator, used to check whether two values are equal or not?',
+    correctAnswer: '==',
+    incorrectAnswers: ['=', '===', '&&'],
+    }
+]
+
+
+
+questions.forEach(function (prompt) {
+    
+
+
+}
+
+)
+
+let displayQuestion = document.querySelector(".header__format")
+displayQuestion.innerText = 
 
 
 // let anotherButton = document.querrySelector("#button__container")
