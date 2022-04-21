@@ -1,3 +1,4 @@
+
 body{
     background-image: url(/assets/bg.jpg);
     color: white;
@@ -38,28 +39,29 @@ body{
     margin-left: -2%;
 }
 .header__format {
-    font-size:xx-large;
-    font-weight: 400;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Outfit',
+    sans-serif;
     text-align: center;
+    font-weight: lighter;
+    font-size: 60px;
     
 
 }
 button {
-    box-shadow: rgb(110, 110, 223) 3px 3px 3px;
-    border: white 1px solid;
-    border-radius: 25px;
+    box-shadow: rgb(110, 110, 223) 1px -3px 2px;
+    border: white 1.5px groove;
+    border-radius: 30px;
     color: whitesmoke;
-    background-color: transparent;
+    background-color: rgb(46, 46, 125, 0.3);
     font-family: 'Outfit',sans-serif;
     font-weight: lighter;
-    font-size: 10px;
+    font-size: 15px;
     width: 300px;
-    height: 50px;
+    height: 60px;
     cursor:pointer;
     display:inline-block;
-    margin-left: 20px;
-    margin-top: 10px;
+    margin-left: 25px;
+    margin-top: 15px;
     
    
 }
@@ -71,20 +73,33 @@ button {
 
 }
     button:hover {
-    background-color: #980E7E
+    background-color: #B51689
 } 
 #footer {
-    font-weight: bold;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top:90%;
+    font-family: 'Inter';
+    font-size: large;
+    font-weight: bold;
+
+
+   
     /* text-align: center; */
     /* bottom: 20%; */
 }
+#footer__num {
+    color: rgb(226,43,159);
+    font-family: 'Inter';
+    font-size: large;
+    font-weight: bold;
+}
 
 h1 span {
-    font-size: xx-large;
+    font-family: 'Outfit',
+    sans-serif;
+    font-size: 60px;
     font-weight: bold;
 }
 
