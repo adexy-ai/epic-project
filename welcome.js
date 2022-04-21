@@ -8,5 +8,6 @@ rulesNode.onchange = function(){
         buttonNode.disabled = false;
     }else{
         buttonNode.disabled = true;
+        alert('You should agree with our term of usage to proceed');
     }
 }
