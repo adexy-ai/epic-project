@@ -34,8 +34,20 @@ let questions = [
     }
 
 ]
+console.log(questions);
 
+let score = 0;
 
+for (let index = 0; index < questions.length; index++) {
+    let response = window.prompt(questions[index].prompt)
+    if (response == questions[index].answer) {
+        score++;
+        alert('Correct answer!');
+    } else {
+        alert('Wrong, try again!')
+    }
+}
+alert('You got' + score + '/' + questions.length);
 
 // let anotherButton = document.querrySelector("#button__container")
 
@@ -43,4 +55,4 @@ let questions = [
 // //     "this is an example of a question" + element.innerHTML;
 
 // console.log("this is an exeample of output");
-alert("this js is working")
+//alert("this js is working")
