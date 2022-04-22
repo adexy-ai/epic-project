@@ -1,0 +1,128 @@
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-image: url(/assetts/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.logo{
+    display: inline;
+}
+.logo img {
+    width: 125px;
+    margin: 50px;
+
+}
+
+.main-container {
+    position: relative;
+    max-width: 720px;
+    margin:6%;
+    width: 55%;
+    height: 50vh;
+    
+
+}
+
+.page-title {
+    position: relative;
+    font-family: 'Outfit';
+    font-size: 70px;
+    font-weight: 400;
+    top: -10%;
+
+
+}
+
+.welcome-text {
+    font-family: 'Outfit';
+    font-weight: 50;
+    font-size:180% ;
+
+}
+
+span {
+    position: relative;
+    bottom: 40px;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 50px;
+    line-height: 22px;
+
+}
+.instruct-container {
+    position: relative;
+    top: -20%;
+
+    
+    
+}
+
+
+
+h3 {
+    color:rgb(226, 43, 159);
+    margin-top: 1px;
+    font-size: 22px;
+    
+}
+p {
+    font-family: 'Inter';
+    font-size: smaller;
+    font-weight: 100;
+}
+ul {
+    font-family: 'Inter';
+    font-size: smaller;
+    letter-spacing: 0.5px;
+    margin-top: 40px;
+    line-height: 20px;
+}
+
+.checkbox {
+    font-size: small
+    
+    
+}
+
+#promise {
+    
+    background-color: transparent;
+    border-color: white;
+    border:white;
+    opacity: 100%;
+}
+#promise:checked {
+    background: white;
+
+}
+
+button {
+    
+    border: none;
+    color: #0b113b;
+    background-color: #00FFFF;
+    font-family : 'Outfit';
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 160px;
+    padding: 17px;
+    position: absolute;
+    left: 80%;
+    transform: translateX(-50%);
+    top: 400px;
+    cursor:pointer;
+    
+    }
+
+    button:hover{
+        box-shadow: rgba(0, 255, 255, 0.388) 0px 0px 25px 10px;
+    }  
+
+    
