@@ -65,7 +65,7 @@ button {
     
    
 }
-    #button__container {
+    .button__container {
     /* align-items: center; */
     position: absolute;
     left: 50%;
@@ -103,7 +103,9 @@ h1 span {
     font-weight: bold;
 }
 
-
+.questions{
+    display: none;
+}
 /* #sp1 {
     position: relative;
     text-align: center;
