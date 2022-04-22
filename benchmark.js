@@ -93,16 +93,9 @@ let questions = [{
     }
 ]
 
-
-
 questions.forEach(function (prompt) {
-    
-
-
 }
-
 )
-
 let displayQuestion = document.querySelector(".header__format")
 displayQuestion.innerText = 
 
