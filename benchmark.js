@@ -67,7 +67,9 @@ alert('You got' + score + '/' + questions.length); */
 let questions = [{
     question: 'Arrays in JS are defined by which of the following statements?',
     correctAnswer: 'Ordered list of values',
-    incorrectAnswers: ['Ordered list of objects','Ordered list of strings','Ordered list of functions'],
+    incorrectAnswers: ['Ordered list of objects'
+    ,'Ordered list of strings'
+    ,'Ordered list of functions'],
     },
     {
     question: 'Which of the following is not js data types?',
