@@ -64,38 +64,38 @@ for (let index = 0; index < questions.length; index++) {
 }
 alert('You got' + score + '/' + questions.length); */
 
-let questions = [{
-    question: 'Arrays in JS are defined by which of the following statements?',
-    correctAnswer: 'Ordered list of values',
-    incorrectAnswers: ['Ordered list of objects','Ordered list of strings','Ordered list of functions'],
-    },
-    {
-    question: 'Which of the following is not js data types?',
-    correctAnswer: 'All of the mentioned',
-    incorrectAnswers: ['Null type','Undefined type','Number type'],
-    },
-    {
-    question: 'The function and var/let are known as?',
-    correctAnswer: 'Declaration statements',
-    incorrectAnswers: ['Keywords','Data types','Prototypes'],
-    },
-    {
-    question: 'Which of the following statement is suitable to check if pattern matches the string text?',
-    correctAnswer: 'text==pattern',
-    incorrectAnswers: ['test(text)','equals(pattern)','test(pattern)'],
-    },
-    {
-    question: 'Which of the following is known as the equality operator, used to check whether two values are equal or not?',
-    correctAnswer: '==',
-    incorrectAnswers: ['=', '===', '&&'],
-    }
-]
+// let questions = [{
+//     question: 'Arrays in JS are defined by which of the following statements?',
+//     correctAnswer: 'Ordered list of values',
+//     incorrectAnswers: ['Ordered list of objects','Ordered list of strings','Ordered list of functions'],
+//     },
+//     {
+//     question: 'Which of the following is not js data types?',
+//     correctAnswer: 'All of the mentioned',
+//     incorrectAnswers: ['Null type','Undefined type','Number type'],
+//     },
+//     {
+//     question: 'The function and var/let are known as?',
+//     correctAnswer: 'Declaration statements',
+//     incorrectAnswers: ['Keywords','Data types','Prototypes'],
+//     },
+//     {
+//     question: 'Which of the following statement is suitable to check if pattern matches the string text?',
+//     correctAnswer: 'text==pattern',
+//     incorrectAnswers: ['test(text)','equals(pattern)','test(pattern)'],
+//     },
+//     {
+//     question: 'Which of the following is known as the equality operator, used to check whether two values are equal or not?',
+//     correctAnswer: '==',
+//     incorrectAnswers: ['=', '===', '&&'],
+//     }
+// ]
 
-questions.forEach(function (prompt) {
-}
-)
-let displayQuestion = document.querySelector(".header__format")
-displayQuestion.innerText = 
+// questions.forEach(function (prompt) {
+// }
+// )
+// let displayQuestion = document.querySelector(".header__format")
+// displayQuestion.innerText = 
 
 
 
@@ -107,15 +107,52 @@ displayQuestion.innerText =
 //then creat  a variabel in js to select and modify 
 //let myMultiQuestions = document.querySelectorAll("div #button__container span").innerHTML = "This is an example question";
 //console.log(myMultiQuestions)
+
+question = ["question1", "question2", "question 3", "question4", "question 5"] 
+answerOptions = [
+        {
+            a: 'ordered list of values',
+            b: 'ordered list of objects',
+            c: 'ordered list of strings',
+            d: 'ordered list of functions'
+     },
+    {
+         a: 'Null type',
+         b: 'Undefined type',
+         c: 'Number type',
+         d: 'All of the mentioned'
+    },
+    {
+        a: '1,2,3,6,7,8',
+        b: '123',
+        c: '1,2,3',
+        d: 'Error'
+     }]
+
+function myFunction() {
+    let myButton = document.getElementsByTagName("button")
+    let myHeader = document.getElementsByTagName("h1");
+    let questionNumber = document.querySelector("#question__num")
+    questionNumber.innerHTML = parseInt(questionNumber.innerHTML) + 1
+    console.log(questionNumber.innerHTML)
+    myHeader[0].innerHTML = question[0]
+    for (i = 0; i < myButton.length; i++) {
+        for (answer in answerOptions[0]) {
+            myButton[i].innerHTML = answerOptions[0][answer]
+        }
+    }
+    // myButton[0].innerHTML = answerOptions[0].a
+    // myButton[1].innerHTML = answerOptions[0].b  
+    // myButton[2].innerHTML = answerOptions[0].c
+    // myButton[3].innerHTML = answerOptions[0].d}
+    answerOptions.shift();
+    question.shift();
+
+}
+
+
+
  
-
-
- question = ["question1", "question2", "question 3", "question4", "question 5"]
- function multipleChoiceQuestion(question) {
-     nextQuestion = Math.floor(Math.random() * question.length) + 1;
-     return question[nextQuestion];
-      }
- multipleChoiceQuestion(question);
 //  //let anotherButton = document.querrySelector("#button__container")
 
  //document.getElementsByTagName(button).innerHTML =
@@ -170,8 +207,9 @@ displayQuestion.innerText =
 
 
 //let question This is the question to be used for the array
-//question  =  [
-    
+
+//optionsButton  =  [
+
 //        {a: 'ordered list of values',
 //         b: 'ordered list of objects',
 //         c: 'ordered list of strings',
@@ -234,15 +272,15 @@ displayQuestion.innerText =
 // }
 //]
 
-function getParams(key = null) {
-    let currentUrl = window.location.search;
-    let url = new URLSearchParams(currentUrl);
+// function getParams(key = null) {
+//     let currentUrl = window.location.search;
+//     let url = new URLSearchParams(currentUrl);
 
-    if (key) {
-        return url.get(key);
-}
+//     if (key) {
+//         return url.get(key);
+// }
 
-    for (let i of url.entries()) {
-        console.log(i);
-    }
-}
+//     for (let i of url.entries()) {
+//         console.log(i);
+//     }
+// }
