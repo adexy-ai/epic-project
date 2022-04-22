@@ -9,9 +9,10 @@ body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-
 }
-
+.logo{
+    display: inline;
+}
 .logo img {
     width: 125px;
     margin: 50px;
