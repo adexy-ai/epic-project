@@ -1,7 +1,7 @@
 let rulesNode = document.getElementsByTagName('input')[0];
 let buttonNode = document.getElementById("proc");
 buttonNode.onclick = function (){
-    location.href = "Quiz.html";
+    location.href = "Question_page.html";
 }
 rulesNode.onchange = function(){
     if(this.checked){
