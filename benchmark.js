@@ -235,8 +235,8 @@ displayQuestion.innerText =
 //]
 
 function getParams(key = null) {
-    let currentUrl = window.location.search;
-    let url = new URLSearchParams(currentUrl);
+    let quizUrl = window.location.search;
+    let url = new URLSearchParams(quizUrl);
 
     if (key) {
         return url.get(key);
