@@ -1,17 +1,18 @@
 //This is the selector for the questions selected via the math.random method 
-let question = document.getElementsByTagName("h1").innerHTML;
- console.log(question);
+document.getElementsByTagName("h1").innerText = "This should replace the h1 content";
+//let question =  
+//console.log(question);
 
  //let myQuestion = document.getElementById("footer") //(need to generate a random question)
 
 //This is the selector for the response options
-let response = document.getElementsByTagName("button")
-console.log(response);
+let response = document.getElementsByTagName("button").innerHTML = "this should show in the button";
+//console.log(response);
 
 //we need to creat a hidden tag with the question question array of object
 //then creat  a variabel in js to select and modify 
-let myMultiQuestions = document.querySelectorAll("div #button__container span")
-console.log(myMultiQuestions)
+let myMultiQuestions = document.querySelectorAll("div #button__container span").innerHTML = "This is an example question";
+//console.log(myMultiQuestions)
  
 
 
@@ -20,7 +21,7 @@ console.log(myMultiQuestions)
      nextQuestion = Math.floor(Math.random() * question.length) + 1;
      return question[nextQuestion];
       }
- console.log(multipleChoiceQuestion(question));
+ multipleChoiceQuestion(question);
 //  //let anotherButton = document.querrySelector("#button__container")
 
  //document.getElementsByTagName(button).innerHTML =
@@ -28,10 +29,10 @@ console.log(myMultiQuestions)
 
 
 
-console.log("========================This print is to test if the js was linked to the html page========================")
-alert("this js is working")
+// console.log("========================This print is to test if the js was linked to the html page========================")
+// alert("this js is working")
 
-console.log("=============This is a method for window prompt option=====================")
+// console.log("=============This is a method for window prompt option=====================")
 
 // let question = [
 //     {
@@ -73,7 +74,7 @@ console.log("=============This is a method for window prompt option=============
 
 
 
-// let an
+
 //let question This is the question to be used for the array
 //question  =  [
     
