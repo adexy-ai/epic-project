@@ -129,23 +129,24 @@ answerOptions = [
         d: 'Error'
      }]
 
-    function myFunction() {
-        let myButton = document.getElementsByTagName("button")
-        console.log(myButton)
-        let myHeader = document.getElementsByTagName("h1");
-        console.log(myHeader)
-        let questionNumber = document.querySelector("#question__num")
-        console.log(questionNumber)
-        questionNumber.innerHTML = parseInt(questionNumber.innerHTML) + 1
-        console.log(questionNumber.innerHTML)
-        myHeader[0].innerHTML = question[0]
-        for (i = 0; i < question.length; i++) {
-            for (answer in answerOptions[0]) {
-                myButton[i].innerHTML = answerOptions[0][answer]
-            }
-     }
-        answerOptions.shift();
-        question.shift();
+function myFunction() {
+    let myButton = document.getElementsByTagName("button")
+    let myHeader = document.getElementsByTagName("h1");
+    let questionNumber = document.querySelector("#question__num")
+    questionNumber.innerHTML = parseInt(questionNumber.innerHTML) + 1
+    console.log(questionNumber.innerHTML)
+    myHeader[0].innerHTML = question[0]
+    for (i = 0; i < myButton.length; i++) {
+        for (answer in answerOptions[0]) {
+            myButton[i].innerHTML = answerOptions[0][answer]
+        }
+    }
+    // myButton[0].innerHTML = answerOptions[0].a
+    // myButton[1].innerHTML = answerOptions[0].b  
+    // myButton[2].innerHTML = answerOptions[0].c
+    // myButton[3].innerHTML = answerOptions[0].d}
+    answerOptions.shift();
+    question.shift();
 
 }
 
