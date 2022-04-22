@@ -1,0 +1,119 @@
+
+body{
+    background-image: url(/assets/bg.jpg);
+    color: white;
+    background-repeat: repeat-x;
+    background-size:cover; 
+    background-attachment: fixed;
+   
+}
+.logo img {
+    width: 125px;
+    margin: 50px;
+
+}
+.circle__format {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-color: rgb(1, 1, 1, 0.1);
+    border: solid 10px;
+    border-color: aqua;
+    width:100px;
+    height: 100px;
+    border-radius: 1000px;
+}
+
+.circle__format p {
+    position: absolute;
+    left: 28px;
+    bottom: 14%;
+    font-family: 'Inter', sans-serif;
+    font-size: 8px;
+    color: rgba(255, 255, 255, 0.878);
+}
+#time__span {
+    position: relative;
+    font-size: 40px;
+    font-weight:bolder;
+    margin-left: -2%;
+}
+.header__format {
+    font-family: 'Outfit',
+    sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 60px;
+    
+
+}
+button {
+    box-shadow: rgb(110, 110, 223) 1px -3px 2px;
+    border: white 1.5px groove;
+    border-radius: 30px;
+    color: whitesmoke;
+    background-color: rgb(46, 46, 125, 0.3);
+    font-family: 'Outfit',sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    width: 300px;
+    height: 60px;
+    cursor:pointer;
+    display:inline-block;
+    margin-left: 25px;
+    margin-top: 15px;
+    
+   
+}
+    #button__container {
+    /* align-items: center; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+    button:hover {
+    background-color: #B51689
+} 
+#footer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:90%;
+    font-family: 'Inter';
+    font-size: large;
+    font-weight: bold;
+
+
+   
+    /* text-align: center; */
+    /* bottom: 20%; */
+}
+#footer__num {
+    color: rgb(226,43,159);
+    font-family: 'Inter';
+    font-size: large;
+    font-weight: bold;
+}
+
+h1 span {
+    font-family: 'Outfit',
+    sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+/* #sp1 {
+    position: relative;
+    text-align: center;
+}
+
+#sp4 {
+    position: relative;
+    text-align: center;
+    }
+#sp2 {
+    position: relative;
+    text-align: center;
+    } */
